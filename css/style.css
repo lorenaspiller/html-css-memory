@@ -31,8 +31,8 @@ body {
 
 /* creazione carta */
 .carta {
-  width: 220px;
-  height: 280px;
+  width: 244px;
+  height: 254px;
   background-color: #fff;
   border: 2px solid #ddd;
   border-radius: 20px;
@@ -41,19 +41,20 @@ body {
 }
 
 .img {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   margin: auto;
   padding-top: 25px;
+  display: inline-block;
 }
 
 img {
   width: 100%;
 }
 
-.carta h3 {
+h3 {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 15px;
   font-size: 35px;
   color: #E61986;
   text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.6);
@@ -61,24 +62,45 @@ img {
 
 .carta .pattern {
   background-color: red;
+  width: 240px;
+  height: 250px;
   display: inline-block;
+  border: none;
   background-image: url("../img/pattern.png");
   background-size: contain;
   background-repeat: repeat;
 }
 
+.carta-completa {
+  margin: 10px;
+  display: inline-block;
+}
+
 
 /* hover carta */
 
-.contenuto-carta {
+.carta .contenuto {
+  width: 240px;
+  height: 250px;
+  border: none;
+  display: inline-block;
   display: none;
 }
 
-.carta:hover .pattern {
+.carta-completa:hover .pattern {
   display:none;
 }
 
 
-.carta:hover .contenuto-carta {
+.carta-completa:hover .contenuto {
   display: block;
+}
+
+.contenitore-carte {
+  margin: auto;
+}
+
+
+.row-1 {
+  text-align: center;
 }
