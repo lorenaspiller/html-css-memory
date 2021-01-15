@@ -10,10 +10,10 @@ body {
   font-family: 'Nerko One', cursive;
 }
 
-.contenitore {
+/* .contenitore {
   width: 60%;
   margin: auto;
-}
+} */
 
 /* intestazione */
 
@@ -30,7 +30,7 @@ body {
 /* corpo centrale */
 
 /* creazione carta */
-.carta {
+/* .carta {
   width: 244px;
   height: 254px;
   background-color: #fff;
@@ -50,6 +50,7 @@ body {
 
 img {
   width: 100%;
+  display: block;
 }
 
 h3 {
@@ -61,7 +62,6 @@ h3 {
 }
 
 .carta .pattern {
-  background-color: red;
   width: 240px;
   height: 250px;
   display: inline-block;
@@ -74,33 +74,87 @@ h3 {
 .carta-completa {
   margin: 10px;
   display: inline-block;
-}
+} */
 
 
 /* hover carta */
 
-.carta .contenuto {
+/* .carta .contenuto {
   width: 240px;
   height: 250px;
   border: none;
   display: inline-block;
   display: none;
-}
-
+} */
+/*
 .carta-completa:hover .pattern {
   display:none;
+} */
+
+/*
+.carta-completa:hover .contenuto {
+  display: block;
+} */
+
+/* .contenitore-carte {
+  margin: auto;
+} */
+
+
+/* .row-1, .row-2, .row-3  {
+  text-align: center;
+} */
+
+
+/* MAIN RIFATTO */
+
+.carta {
+  width: 244px;
+  height: 254px;
+  border: 2px solid #ddd;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px grey;
+  background-image: url("../img/pattern.png");
+  background-size: contain;
+  background-repeat: repeat;
 }
 
+img {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+  display: block;
+  padding-top: 15px;
+}
 
-.carta-completa:hover .contenuto {
+h3 {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 35px;
+  color: #E61986;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.retro {
+  display: none;
+}
+
+.carta:hover .retro {
   display: block;
 }
 
-.contenitore-carte {
-  margin: auto;
+.carta:hover {
+  background-image: none;
+  background-color: #fff;
 }
 
+.carta {
+  display: inline-block;
+  margin: 15px;
+}
 
-.row-1 {
+.contenitore {
   text-align: center;
 }
+
+/* FINE MAIN RIFATTO */
