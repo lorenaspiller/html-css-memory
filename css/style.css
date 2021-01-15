@@ -21,8 +21,8 @@ body {
   text-align: center;
   color: #fff;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
-  font-size: 100px;
-  margin-top: 20px;
+  font-size: 90px;
+  margin-top: 10px;
 }
 
 /* fine intestazione */
@@ -117,6 +117,7 @@ h3 {
   background-image: url("../img/pattern.png");
   background-size: contain;
   background-repeat: repeat;
+  position: relative;
 }
 
 
@@ -137,6 +138,9 @@ h3 {
 
 .retro {
   display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
 }
 
 .carta:hover .retro {
@@ -186,6 +190,7 @@ h3 {
 
 /* footer */
 h6 {
+  margin-top: 20px;
   text-align: center;
   font-size: 23px;
 }
