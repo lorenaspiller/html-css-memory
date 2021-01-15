@@ -9,3 +9,16 @@ body {
   background-color: #ADD8E6;
   font-family: 'Nerko One', cursive;
 }
+
+.contenitore {
+  width: 60%;
+  margin: auto;
+}
+
+#titolo {
+  text-align: center;
+  color: #fff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+  font-size: 100px;
+  margin-top: 30px;
+}
